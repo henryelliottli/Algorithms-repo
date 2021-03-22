@@ -1,0 +1,41 @@
+#Complexity Task0
+The index function takes O(n) where n is the length of the string
+getting an item at an index takes O(1)
+the complexity should be O(n)
+
+----------------------------------------------------------------------------
+
+#Complexity Task1
+totalCalls is two for loops not nested so it should O(n)
+making a set should be O(n)
+
+The complexity should be O(n)
+
+----------------------------------------------------------------------------
+
+#Complexity Task2
+
+There are only un-nested for loops and creating a set in this algorithm so it should be O(n)
+
+----------------------------------------------------------------------------
+
+#Complexity Task3
+
+for loops are O(n)
+sorting the areaCodes are O(nlogn) 
+
+the complexity should be O(nlogn) 
+
+----------------------------------------------------------------------------
+
+#Complexity Task4
+
+Turn the lists from the CSV files into sets [O(n)]
+Find the difference in the sets [O(n)]
+Turn the new set into a list [O(n)]
+Sort the list [O(nlogn)]
+Print the list [O(n)] 
+
+The complexity should be O(nlogn)
+
+----------------------------------------------------------------------------
