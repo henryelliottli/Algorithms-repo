@@ -9,15 +9,12 @@ with open('texts.csv', 'r') as f:
     texts = list(reader)
     realPeople = set(text[0] for text in texts)
     realPeople.add(text[1] for text in texts)
-    print(len(realPeople))
 
 with open('calls.csv', 'r') as f:
     reader = csv.reader(f)
     calls = list(reader)
     callers = set(call[0] for call in calls)
     realPeople.add(call[1] for call in calls)
-    print(len(realPeople))
-
 
 differences = sorted(callers.difference(realPeople))
 print("These numbers could be telemarketers: ")
